@@ -1,7 +1,8 @@
 ---
 title: システム開発
-date: 2018-12-21T09:58:43.144Z
 category: shopping
-permalink: /products/development
+date: 2018-12-21T09:58:43.144Z
 ---
 システム開発
+
+これで変更を加えるとどうなる？
