@@ -18,3 +18,7 @@ default では Delete と Publish しかないが、Delete が Entry ではな�
 に設定できるようになる。
 
 Save すると変更したファイル名を冠した `cms/:page` branch が作成される。
+
+Save は git-gateway への commit & push になるのでそれなりに時間が掛かってしまうのがこまめに保存したい人にとってはアレか。
+
+ここに localStorage や sessionStorage が加われば最強か。
