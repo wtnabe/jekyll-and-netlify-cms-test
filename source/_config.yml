@@ -1,3 +1,7 @@
+include:
+  - admin/*
+exclude: 
+  - 'data-*.yaml'
 defaults:
   - 
     scope:
