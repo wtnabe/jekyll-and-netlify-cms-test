@@ -16,14 +16,6 @@ collections:
         name: title
         widget: string
       -
-        label: 更新日
-        name: date
-        widget: date
-      -
-        label: 本文
-        name: body
-        widget: markdown
-      -
         label: カテゴリ
         name: category
         widget: select
@@ -32,6 +24,14 @@ collections:
           - shopping
           - play
           - work
+      -
+        label: 更新日
+        name: date
+        widget: date
+      -
+        label: 本文
+        name: body
+        widget: markdown
   - 
     label: rawpages
     name: rawpages
