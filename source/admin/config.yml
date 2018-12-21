@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  repo: wtnabe/jekyll-and-netlify-test
+media_folder: assets/img
+collections:
+  - 
+    label: pages
+    name: pages
+    create: true
+    folder: source
+    extension: md
+    fields:
+      - 
+        label: タイトル
+        name: title
+        widget: string
+      -
+        label: 更新日
+        name: date
+        widget: date
+      -
+        label: 本文
+        name: body
+        widget: markdown
+      -
+        label: カテゴリ
+        name: category
+        widget: select
+        options:
+          - food
+          - shopping
+          - play
+          - work
+  - 
+    label: rawpages
+    name: rawpages
+    create: true
+    folder: source
+    extension: html
+    fields:
+      - 
+        label: タイトル
+        name: title
+        widget: string
+      -
+        label: 更新日
+        name: date
+        widget: date
+      -
+        label: 本文
+        name: body
+        widget: text
+  -
+    label: データ
+    name: data
+    folder: source
+    extension: yaml
+    fields:
+      -
+        label: key
+        name: key
+        widget: string
+      -
+        label: foo
+        name: foo
+        widget: string

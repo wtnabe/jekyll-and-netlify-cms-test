@@ -1,0 +1,18 @@
+defaults:
+  - 
+    scope:
+      path: 'index.html'
+    values:
+      layout: top
+  - 
+    scope:
+      path: 'products.md'
+    values:
+      layout: default
+  - 
+    scope:
+      path: 'products-*.md'
+    values:
+      layout: default
+plugins:
+  - jekyll-assets
