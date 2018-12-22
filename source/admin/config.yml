@@ -18,11 +18,12 @@ collections:
       -
         label: カテゴリ
         name: category
-        widget: relation
-        collection: categories
-        valueField: title
-        searchFields: [title]
-        displayFields: [title]
+        widget: select
+        multiple: true
+        options:
+          - work
+          - game
+          - shopping
       -
         label: 更新日
         name: date
