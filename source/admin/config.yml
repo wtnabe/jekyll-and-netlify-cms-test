@@ -20,8 +20,8 @@ collections:
         name: category
         widget: relation
         collection: categories
-        valueField: category
-        searchFields: [category]
+        valueField: category/name
+        searchFields: [category/name]
       -
         label: 更新日
         name: date
