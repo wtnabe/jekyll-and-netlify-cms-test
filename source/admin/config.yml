@@ -20,9 +20,9 @@ collections:
         name: category
         widget: relation
         collection: categories
-        valueField: name
-        searchFields: [name]
-        displayFields: [name]
+        valueField: title
+        searchFields: [title]
+        displayFields: [title]
       -
         label: 更新日
         name: date
@@ -56,11 +56,10 @@ collections:
     folder: source/_data/category
     create: true
     format: yaml
-    identifier_field: name
     fields:
       - 
         label: カテゴリ名
-        name: name
+        name: title
         widget: string
   -
     label: folderデータ
