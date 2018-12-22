@@ -19,7 +19,7 @@ collections:
         label: カテゴリ
         name: category
         widget: relation
-        collection: category
+        collection: categories
         valueField: name
         searchFields: [category]
       -
@@ -55,7 +55,7 @@ collections:
     files: 
       - 
         label: カテゴリ
-        name: category
+        name: categories
         file: source/_data/category.yml
         fields:
           - 
