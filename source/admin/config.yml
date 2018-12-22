@@ -22,6 +22,7 @@ collections:
         collection: categories
         valueField: name
         searchFields: [name]
+        displayFields: [name]
       -
         label: 更新日
         name: date
