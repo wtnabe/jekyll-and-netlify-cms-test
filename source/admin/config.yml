@@ -61,7 +61,7 @@ collections:
         file: source/_data/category.yml
         widget: list
         allow_add: true
-        field:
+        fields:
           - 
             label: 日本語
             name: japanese
