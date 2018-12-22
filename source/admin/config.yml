@@ -51,9 +51,26 @@ collections:
         label: 本文
         name: body
         widget: text
+  - 
+    label: filesデータ
+    name: files data
+    files: 
+      - 
+        label: カテゴリ
+        name: category
+        file: source/_data/category.yml
+        fields:
+          - 
+            label: 日本語
+            name: japanese
+            widget: string
+          - 
+            label: name
+            name: name
+            widget: string
   -
-    label: データ
-    name: data
+    label: folderデータ
+    name: folder data
     folder: source
     extension: yaml
     fields:
