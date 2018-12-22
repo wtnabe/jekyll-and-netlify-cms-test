@@ -63,13 +63,17 @@ collections:
         allow_add: true
         fields:
           - 
-            label: 日本語
-            name: japanese
-            widget: string
-          - 
-            label: name
-            name: name
-            widget: string
+            label: カテゴリ
+            name: category
+            field: 
+              - 
+                label: 日本語
+                name: japanese
+                widget: string
+              - 
+                  label: name
+                  name: name
+                  widget: string
   -
     label: folderデータ
     name: folder data
