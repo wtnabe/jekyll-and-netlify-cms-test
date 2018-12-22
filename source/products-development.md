@@ -1,5 +1,8 @@
 ---
 title: システム開発
+category:
+  - work
+  - shopping
 date: 2018-12-21T09:58:43.144Z
 ---
 システム開発
