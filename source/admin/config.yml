@@ -54,6 +54,7 @@ collections:
     name: categories
     folder: source/_data/category
     create: true
+    format: yaml
     identifier_field: name
     fields:
       - 
