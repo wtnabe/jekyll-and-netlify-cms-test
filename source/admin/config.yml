@@ -65,8 +65,8 @@ collections:
             allow_add: true
             field:
               - 
-                label: カテゴリ
-                name: category
+                label: 名前
+                name: name
                 widget: string
   -
     label: folderデータ
