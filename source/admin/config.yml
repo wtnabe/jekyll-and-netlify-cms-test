@@ -59,21 +59,17 @@ collections:
         label: カテゴリ
         name: category
         file: source/_data/category.yml
-        widget: list
-        allow_add: true
         fields:
           - 
             label: カテゴリ
             name: category
-            field: 
+            widget: list
+            allow_add: true
+            field:
               - 
-                label: 日本語
-                name: japanese
+                label: カテゴリ
+                name: category
                 widget: string
-              - 
-                  label: name
-                  name: name
-                  widget: string
   -
     label: folderデータ
     name: folder data
