@@ -20,8 +20,8 @@ collections:
         name: category
         widget: relation
         collection: categories
-        valueField: category/name
-        searchFields: [category/name]
+        valueField: name
+        searchFields: [name]
       -
         label: 更新日
         name: date
@@ -57,16 +57,12 @@ collections:
         label: カテゴリ
         name: categories
         file: source/_data/category.yml
+        allow_add: true
         fields:
           - 
-            label: カテゴリ
-            name: category
-            widget: list
-            allow_add: true
-            field:
-              label: 名前
-              name: name
-              widget: string
+            label: 名前
+            name: name
+            widget: string
   -
     label: folderデータ
     name: folder data
