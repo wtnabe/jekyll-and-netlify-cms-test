@@ -50,19 +50,15 @@ collections:
         name: body
         widget: text
   - 
-    label: filesデータ
-    name: files data
-    files: 
+    label: カテゴリ
+    name: categories
+    folder: source/_data/category
+    create: true
+    fields:
       - 
-        label: カテゴリ
-        name: categories
-        file: source/_data/category.yml
-        allow_add: true
-        fields:
-          - 
-            label: 名前
-            name: name
-            widget: string
+        label: 名前
+        name: name
+        widget: string
   -
     label: folderデータ
     name: folder data
@@ -77,3 +73,6 @@ collections:
         label: foo
         name: foo
         widget: string
+
+
+# files collection はちょっと特殊。folder collection は同じ構造の file が並ぶことを前提に fileds 設計できるが、files collection は1つ1つのfileの中の構造を定義できるが、collectionとしてのfields定義が存在しない。
