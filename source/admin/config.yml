@@ -63,7 +63,10 @@ collections:
             name: category
             widget: list
             allow_add: true
-            default: ['']
+            field:
+              label: 名前
+              name: name
+              widget: string
   -
     label: folderデータ
     name: folder data

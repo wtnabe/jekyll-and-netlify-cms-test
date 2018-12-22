@@ -1,4 +1,7 @@
 category:
-  - shopping
-  - work
-  - game
+  - 
+    name: shopping
+  - 
+    name: work
+  - 
+    name: game
