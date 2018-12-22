@@ -54,9 +54,10 @@ collections:
     name: categories
     folder: source/_data/category
     create: true
+    identifier_field: name
     fields:
       - 
-        label: 名前
+        label: カテゴリ名
         name: name
         widget: string
   -
